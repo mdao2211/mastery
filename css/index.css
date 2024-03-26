@@ -1,0 +1,319 @@
+/* ALL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  background-color: white;
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+}
+/* HEADER  */
+header {
+  margin-left: auto;
+  width: 90%;
+}
+
+.header__top .header__logo {
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header__top i {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  vertical-align: bottom;
+  color: yellow;
+  display: inline-block;
+}
+
+.header__top a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__bottom ul {
+  padding-left: 25px;
+  word-spacing: 25px;
+}
+
+.header__bottom li {
+  list-style: none;
+  display: inline;
+}
+
+.header__bottom li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.header__bottom a:hover {
+  color: yellow;
+}
+/* CAROUSEL  */
+.carousel img {
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+}
+/* WELCOME  */
+.welcome {
+  padding: 15px 0;
+  margin: auto;
+  width: 80%;
+}
+
+.welcome__left {
+  float: left;
+  width: 50%;
+}
+
+.welcome__left p {
+  padding: 25px 0;
+  color: #838383;
+  font-size: 18px;
+}
+
+.welcome__left button {
+  text-align: center;
+  width: 135px;
+  height: 45px;
+  background-color: #fdc800;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 0;
+}
+
+.welcome__left button:hover {
+  background-color: black;
+  color: #fdc800;
+}
+
+.welcome__right {
+  float: right;
+  width: 50%;
+}
+
+.welcome__right img {
+  width: 100%;
+}
+/* SHOWTIME  */
+.showtime {
+  width: 100%;
+  height: 200px;
+  padding: 15px 0;
+  background-color: #f6f6f6;
+}
+
+.showtime__items {
+  margin: auto;
+  width: 80%;
+  background-color: #f6f6f6;
+}
+
+.showtime__components {
+  float: left;
+  width: 25%;
+  background-color: #f6f6f6;
+}
+
+.showtime__components .text {
+  margin-top: 5px;
+  background-color: #f6f6f6;
+}
+
+.showtime__components .number {
+  font-size: 42px;
+  font-weight: bold;
+  float: left;
+  width: 30%;
+  background-color: #f6f6f6;
+}
+/* CATEGORIES  */
+.categories {
+  padding: 15px 0;
+}
+
+.categories__layout {
+  margin: auto;
+  width: 80%;
+}
+
+.categories__top .categories__item {
+  float: left;
+  width: 20%;
+  background-color: #002146;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  height: 120px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+
+.categories__top .categories__item span {
+  font-size: 15px;
+}
+
+.categories__bottom .categories__item {
+  float: left;
+  width: 20%;
+  background-color: #002146;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  height: 120px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+
+.categories__bottom .categories__item span {
+  font-size: 15px;
+}
+
+/* POST  */
+.post {
+  padding: 15px 0;
+  margin: auto;
+  width: 80%;
+  overflow: hidden; /* Add overflow to contain floated elements */
+}
+
+.lastest__post {
+  float: left;
+  width: 50%;
+  background-color: #f6f6f6;
+}
+
+.lastest__component {
+  float: left;
+  width: 100%; /* Đặt chiều rộng cho phần tử lastest__component là 100% để chúng nằm trên cùng một hàng */
+  background-color: white;
+  padding: 10px 0;
+}
+
+.lastest__text {
+  width: calc(
+    50% - 10px
+  ); /* Đặt chiều rộng cho văn bản là 50% với khoảng cách 10px giữa các thành phần */
+  float: left; /* Đặt float để ảnh và văn bản nằm trên cùng một hàng */
+}
+
+.lastest__text .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lastest__text .datetime {
+  color: #838383;
+  padding: 10px 0;
+}
+
+.lastest__component img {
+  width: calc(
+    50% - 10px
+  ); /* Đặt chiều rộng cho ảnh là 50% với khoảng cách 10px giữa các thành phần */
+  border-radius: 4px;
+  float: left; /* Đặt float để ảnh và văn bản nằm trên cùng một hàng */
+}
+.lastest__button {
+  text-align: right;
+}
+
+.lastest__button button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #fdc800;
+  color: #002146;
+}
+
+.lastest__button button:hover {
+  background-color: blue;
+  color: red;
+}
+
+.lastest__post hr {
+  border: 1px solid #838383; /* Loại bỏ đường viền mặc định của hr */
+  width: 90%;
+  margin: 15px 0;
+}
+
+.vl {
+  border-left: 1px solid black;
+}
+
+.upcoming__content {
+  width: 100%; /* Đặt chiều rộng cho upcoming content là 100% */
+}
+
+.upcoming__card {
+  width: 25%; /* Đặt chiều rộng cho upcoming card là 25% */
+  margin: auto; /* Căn giữa upcoming card */
+}
+.upcoming__card .card__top {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.upcoming__card .card__bottom {
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+.upcoming__events {
+  float: right; /* Float upcoming events to the right */
+  width: 50%; /* Set width to 50% to share space with lastest post */
+  background-color: #f6f6f6;
+}
+
+.upcoming__component {
+  float: left;
+  width: 50%; /* Set width to 50% to make two components sit side by side */
+  background-color: white;
+  padding: 10px;
+}
+
+.upcoming__text {
+  width: 100%; /* Set width to 100% for full width */
+}
+
+.upcoming__card {
+  width: 100%; /* Set width to 100% for full width */
+}
+
+.upcoming__card .card__top,
+.upcoming__card .card__bottom {
+  border-radius: 0; /* Remove border radius */
+}
+
+/* FOOTER  */
+.footer {
+  background-color: #002146 !important; /* Màu nền xanh da trời */
+  color: white !important; /* Màu chữ trắng */
+  padding: 20px !important; /* Khoảng cách lề */
+}
+
+.footer__section h3 {
+  font-size: 18px !important; /* Kích thước phông chữ cho tiêu đề */
+}
+
+.footer__section ul li {
+  margin-bottom: 5px !important; /* Khoảng cách giữa các mục trong danh sách */
+}
